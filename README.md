@@ -19,3 +19,16 @@ Run the script using Node.js:
 
 ```bash
 node peek.js <file> [n]
+```
+### Examples
+# Preview first 3 and last 3 lines (default)
+node peek.js sample.txt
+
+# Preview first 5 and last 5 lines
+node peek.js sample.txt 5
+
+# Boundary case (if file has <= 2 * n lines, prints whole file)
+node peek.js boundary.txt 3
+
+# Edge case: passing 0 prints only the omission indicator
+node peek.js sample.txt 0
