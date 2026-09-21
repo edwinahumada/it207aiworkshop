@@ -20,16 +20,16 @@ Run the script using Node.js:
 ```bash
 node peek.js <file> [n]
 ```
-### Examples
-# Preview first 3 and last 3 lines (default)
+# Examples
+### Preview first 3 and last 3 lines (default)
 ```bash
 node peek.js sample.txt
 ```
-# Preview first 5 and last 5 lines
+### Preview first 5 and last 5 lines
 ```bash
 node peek.js sample.txt 5
 ```
-# Boundary case (if file has <= 2 * n lines, prints whole file)
+### Boundary case (if file has <= 2 * n lines, prints whole file)
 ```bash
 node peek.js boundary.txt 3
 ```
