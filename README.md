@@ -22,13 +22,18 @@ node peek.js <file> [n]
 ```
 ### Examples
 # Preview first 3 and last 3 lines (default)
+```bash
 node peek.js sample.txt
-
+```
 # Preview first 5 and last 5 lines
+```bash
 node peek.js sample.txt 5
-
+```
 # Boundary case (if file has <= 2 * n lines, prints whole file)
+```bash
 node peek.js boundary.txt 3
-
+```
 # Edge case: passing 0 prints only the omission indicator
+```bash
 node peek.js sample.txt 0
+```
